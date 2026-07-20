@@ -13,7 +13,7 @@ void main() {
   }
   print(line);
   // Soal 3: Nama berulang 4 kali menggunakan while
-  String nama = "Raziek";
+  String nama = ("Raziek"\n);
   int i = 0;
   while (i < 4) {
     print(nama);
