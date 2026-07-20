@@ -10,7 +10,7 @@ void main() {
   String line = List.filled(5, "*").join(" ");
   print(line);
   // Soal 3: Nama berulang 4 kali menggunakan while
-  String nama = "Aisyah";
+  String nama = "Raziek";
   int i = 0;
   while (i < 4) {
     print(nama);
