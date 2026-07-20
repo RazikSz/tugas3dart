@@ -7,7 +7,10 @@ void main() {
   print(ganjil.join(", "));
 
   // Soal 2: Cetak '*' 5 kali dalam satu baris
-  String line = List.filled(5, "*").join(" ");
+  String line = "";
+  for (int i = 0; i < 5; i++) {
+    line += "* ";
+  }
   print(line);
   // Soal 3: Nama berulang 4 kali menggunakan while
   String nama = "Raziek";
